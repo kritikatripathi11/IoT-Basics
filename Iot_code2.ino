@@ -11,22 +11,22 @@ void setup (){
 void loop() {
   
   digitalWrite(my_led, HIGH);
-  Serial.print\n("LED IS ON");
+  Serial.println("LED IS ON");
   delay(1000);
   digitalWrite(my_led, LOW);
-  Serial.print\n("LED IS OFF");
+  Serial.println("LED IS OFF");
   delay(1000);
   digitalWrite(led, HIGH);
-  Serial.print\n("LED IS ON");
+  Serial.println("LED IS ON");
   delay(1000);
   digitalWrite(my_led, LOW);
-  Serial.print\n("LED IS OFF");
+  Serial.println("LED IS OFF");
   delay(1000);
   digitalWrite(u_led, HIGH);
-  Serial.print\n("LED IS ON");
+  Serial.println("LED IS ON");
   delay(1000);
   digitalWrite(my_led, LOW);
-  Serial.print\n("LED IS OFF");
+  Serial.println("LED IS OFF");
   delay(1000);
   
 }
